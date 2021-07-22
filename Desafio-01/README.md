@@ -12,3 +12,4 @@ Criar uma landing page para cadastro de email e recebimento de novidades e promo
 
 ## Preview
 
+![](https://github.com/HugoPDF5/hiring-coders/blob/master/Desafio-01/assets/screenshot.png)
