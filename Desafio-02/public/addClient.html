@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Adicionar novo cliente</title>
+        <link rel="stylesheet" href="/styles/global.css">
+        <link rel="stylesheet" href="/styles/client.css">
+        <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <p>Sistema de cadastro</p>
+        </header>
+        <main>
+            <form>
+                <label for="name" class="sr-only">Nome</label>
+                 <input type="text" name="name" id="name" required placeholder="Nome">
+                <label for="cpf" class="sr-only">CPF</label>
+                 <input type="number" name="cpf" id="cpf" required placeholder="CPF">
+                <label for="street" class="sr-only">Rua</label>
+                  <input type="text" name="street" id="street" required placeholder="Rua">
+                <label for="district" class="sr-only">Bairro</label>
+                  <input type="text" name="district" id="district" required placeholder="Bairro">
+                <label for="tel" class="sr-only">Telefone</label>
+                  <input type="number" name="tel" id="tel" required placeholder="Telefone">
+                <label for="city" class="sr-only">Cidade</label>
+                  <input type="text" name="city" id="city" required placeholder="Cidade">
+                <button>Cadastrar</button>
+            </form>
+        </main>
+    </body>
+</html>
