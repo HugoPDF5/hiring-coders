@@ -12,7 +12,12 @@ header {
     color: white;
     display:flex;
     align-items:center;
-    justify-content:center
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    width: 15%
 }
 
 header p {
