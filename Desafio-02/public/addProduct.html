@@ -20,12 +20,12 @@
             <p>Sistema de cadastro</p>
         </header>
         <main>
-                <form>
+                <form id="form">
                     <legend>Novo produto</legend>
                       <label for="name" class="sr-only">Nome</label>
                        <input type="text" name="name" id="name" required placeholder="Nome do produto">
                       <label for="value" class="sr-only">Valor</label>
-                       <input type="number" name="number" id="number" required placeholder="0,00">
+                       <input type="text" name="price" id="price" required placeholder="0,00">
                       <label for="description" class="sr-only">Descrição</label>
                        <input type="text" name="description" id="description" placeholder="Descrição">
                       <label for="brand" class="sr-only">Marca</label>
@@ -34,4 +34,6 @@
                   </form>
         </main>
     </body>
+
+    <script src="/scripts/product.js"></script>
 </html>
