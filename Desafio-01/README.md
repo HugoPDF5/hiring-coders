@@ -1,6 +1,9 @@
 ## Objetivo
 Criar uma landing page para cadastro de email e recebimento de novidades e promoções.
 
+## Link
+Voce pode acessar essa landing page clicando [aqui](https://landing-ofertas.netlify.app)
+
 ## Requisitos
 -Template do site oficial 
 
