@@ -1,6 +1,10 @@
 ## Objetivo
 Criação de um sistema e-commerce para inventário de produtos e dados de clientes
 
+## Link 
+Você pode acessar a aplicação clicando [aqui](https://desafio02hiring.netlify.app)
+
+
 ## Requisitos
 -Os dados de clientes, endereços e produtos devem estar devidamente estruturados;
 
